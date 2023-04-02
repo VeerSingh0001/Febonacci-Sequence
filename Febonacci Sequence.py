@@ -5,6 +5,8 @@ def feboseq(value): # Function for printing sequence
     secondnum = 1
     if value == 1:
         print(firstnum)
+    elif value <= 0:
+        print("Please enter a value greater than 0!")
     else:
         print(firstnum, secondnum, end=" ")
         for i in range(2, value):
